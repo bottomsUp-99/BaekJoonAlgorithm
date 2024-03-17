@@ -12,9 +12,9 @@ public class BaekJoon17298
         int N = Integer.parseInt(br.readLine());
         int[] list = new int[N];
         StringTokenizer st = new StringTokenizer(br.readLine());
-//        for (int i = 0 ; i < N ; i ++){
-//            list[i] = Integer.parseInt(st.nextToken());
-//        }
+        for (int i = 0 ; i < N ; i ++){
+            list[i] = Integer.parseInt(st.nextToken());
+        }
 //        for (int i = 0 ; i < N - 1 ; i++){
 //            Stack<Integer> rightBigNum = new Stack<>();
 //            int iNum = list[i];
