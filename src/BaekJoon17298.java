@@ -39,19 +39,17 @@ public class BaekJoon17298
 //        sb.append(-1);
 //        System.out.println(sb);
         Stack<Integer> store = new Stack<>();
-        store.push(Integer.parseInt(st.nextToken()));
-        for (int i = 1 ; i < N - 1 ; i++){
-            int nextNum = Integer.parseInt(st.nextToken());
-            while(!store.isEmpty()){
-
+        for(int i = 0; i<N; i++){
+            while(!store.isEmpty() && list[store.peek()] < list[i]){
+                list[store.pop()] = list[i];
             }
-            if (store.peek() < nextNum){
-                store.pop();
-                store.push(nextNum);
-                sb.append(nextNum).append(" ");
-            }
+            store.add(i);
         }
-        sb.append(-1);
+        while(!store.isEmpty()){
+            list[store.pop()] = -1;
+        }
+        for(int i = 0; i<N; i++)
+            sb.append(list[i]).append(" ");
         System.out.println(sb);
     }
 }
