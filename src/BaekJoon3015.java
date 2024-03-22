@@ -12,7 +12,7 @@ public class BaekJoon3015
         for (int i = 0 ; i < N ; i++){
             oasis[i] = Integer.parseInt(br.readLine());
         }
-        int result = 0;
+        long result = 0;
         Stack<int[]> waitingLine = new Stack<>();
         for(int i = 0; i < N ; i++) {
             while(!waitingLine.isEmpty() && waitingLine.peek()[0] < oasis[i]) {
