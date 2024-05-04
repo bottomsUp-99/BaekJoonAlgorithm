@@ -11,15 +11,12 @@ public class BaekJoon1463 {
             if (N % 3 == 0){
                 N /= 3;
                 ans++;
-                break;
             } else if (N % 2 == 0){
                 N /= 2;
                 ans++;
-                break;
             } else {
                 N -= 1;
                 ans++;
-                break;
             }
         }
         System.out.println(ans);
