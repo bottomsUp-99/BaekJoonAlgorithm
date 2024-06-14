@@ -11,7 +11,7 @@ public class BaekJoon1292 {
         int A = Integer.parseInt(st.nextToken());
         int B = Integer.parseInt(st.nextToken());
         for (int i = 1 ; i < list.length ; i++){
-
+            
         }
     }
 }
