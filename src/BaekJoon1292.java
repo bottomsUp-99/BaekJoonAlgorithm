@@ -13,5 +13,6 @@ public class BaekJoon1292 {
         for (int i = 1 ; i < list.length ; i++){
             
         }
+        // 모르겠어염....
     }
 }

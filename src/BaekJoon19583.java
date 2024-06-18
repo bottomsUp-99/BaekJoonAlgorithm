@@ -15,5 +15,6 @@ public class BaekJoon19583
 //        String Q = st.nextToken();
         int sh = Integer.parseInt(Arrays.toString(S.split(":")));
         System.out.println(sh);
+        // 모르겠어염....
     }
 }

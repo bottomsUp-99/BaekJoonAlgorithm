@@ -18,6 +18,6 @@ public class BaekJoon17218
             }
         }
         System.out.println(sb);
-        //시발 모르겠노!!
+        // 모르겠어염....
     }
 }
